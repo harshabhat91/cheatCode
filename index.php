@@ -5,7 +5,6 @@ header('Content-Type: application/json');
 #	'raStatus' => (time() % 10000) * 3;
 #	];
 while(true) {
-    if( time() % 5 == 0 ) { // get time in seconds and check if it is multiple of 5
         $cbStatus = rand(0, 1);
 		if ($cbStatus == 1) {
 			$raStatus = 0;
@@ -14,7 +13,7 @@ while(true) {
 			}
         break; // break the loop
     } else {
-        sleep(1);
+        sleep(5);
     }
 }
 
