@@ -18,5 +18,5 @@ while(true) {
     }
 }
 
-$arr = array('a' => $cbStatus, 'b' => $raStatus);
+$arr = array('cbStatus' => $cbStatus, 'raStatus' => $raStatus);
 echo json_encode($arr);
