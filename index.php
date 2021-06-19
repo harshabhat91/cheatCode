@@ -12,9 +12,7 @@ while(true) {
 				$raStatus = 1;
 			}
         break; // break the loop
-    } else {
         sleep(5);
-    }
 }
 
 $arr = array('cbStatus' => $cbStatus, 'raStatus' => $raStatus);
