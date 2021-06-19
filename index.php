@@ -9,10 +9,9 @@ while(true) {
         $cbStatus = rand(0, 1);
 		if ($cbStatus == 1) {
 			$raStatus = 0;
-			else {
+			} else {
 				$raStatus = 1;
 			}
-		}
         break; // break the loop
     } else {
         sleep(1);
